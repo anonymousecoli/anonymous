@@ -1,0 +1,225 @@
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Noto Sans", sans-serif;
+}
+
+p, a, input, label, textarea, span, ul, li{
+    font-family: "Open Sans", sans-serif;
+}
+
+header .navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+}
+header .navbar{
+    background-color: rgba(0, 0, 0, .2);
+}
+header form{
+    float: right;
+    position: absolute;
+    right: 20px;
+}
+
+#navbarNavAltMarkup a{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+}
+header .btn{
+    color: white;
+}
+
+#intro .jumbotron{
+    background-image: url("../pictures/DSC_3.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+#intro .jumbotron{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0;
+}
+#intro h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+    text-shadow: #000000 5px 0 7px;
+}
+#intro p{
+    color: #ffffff;
+    text-shadow: #000000 3px 0 4px;
+}
+
+
+#intro .container{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.btn{
+    color: white;
+    background-color: #459894;
+    border-radius: 20px;
+}
+
+
+#second {
+    background-image: url("../pictures/DSC_2.JPG");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0px;
+}
+
+#second h3 {
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+#second h5{
+    color: white;
+}
+
+#last h3 {
+    font-size: 35px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+p.sublead{
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+p.lead{
+    color: black;
+    font-size: 24px;
+    text-shadow: 0 0 5px white;
+}
+#second {
+    padding: 80px 0px;
+}
+
+#second img{
+    width: 180px;
+    border-radius: 100%;
+    margin-bottom: 12px;
+}
+
+/*
+#last{
+    padding: 80px 0px;
+    background-color: rgb(248, 248, 248);
+}
+
+#last .upper{
+    position: relative;
+}
+
+#last .overlaytext{
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 5px 10px;
+}
+
+#last .lower h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;   
+}
+#last .leftmost{
+    background-color: white;
+    box-shadow: 0 0 5px 0;
+}
+#last .middle{
+    background-color: white;
+    box-shadow: 0 0 5px 0;
+}
+#last .rightmost{
+    background-color: white;
+    box-shadow: 0 0 5px 0;
+}
+#last .lower{
+    padding: 3px 20px 20px 20px;
+}
+#last a{
+    color: black;
+}
+#last a:hover{
+    text-decoration: none;
+    color: #707070;
+}
+#last img{
+    max-width: 100%;
+    height: 233.61px;
+}
+*/
+
+@media only screen and (max-width: 767px){
+    #last img{
+         width: auto;
+         height: auto;
+     }
+ }
+
+#jslider .flex-direction-nav a:before {
+    font-size: 25px;
+ }
+
+#email {
+    padding: 80px 0px;
+}
+
+#email a{
+    background-color: #459894;
+    border-radius: 20px;
+    color: white;
+}
+
+footer{
+    border-top: solid 2px #818182;
+    padding: 80px 0px;
+}
+
+footer img{
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    margin-bottom: 20px;
+}
+footer a{
+    color:#459894;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-right: 50px;
+}
+footer li{
+    margin-bottom: 10px;
+}
+footer ul li a{
+    color: black;
+}
+
+
