@@ -48,7 +48,7 @@ nav a{
 /* first page */
 #firstpage{
     display: block;
-    background-image: url("../image/DSC_3\ Large.jpeg.JPG");
+    background-image: url("../image/DSC_3\ Large.jpeg");
     background-size: cover;
     border-radius: 40px;
     height: 90vh;
@@ -64,7 +64,7 @@ h1{
 
 /* second page */
 #secondpage {
-    background-image: url("../image/DSC_4170\ Large.jpeg.jpg");
+    background-image: url("../image/DSC_4170\ Large.jpeg");
     background-size: cover;
     background-position: 0 -270px;
     border-radius: 40px;
