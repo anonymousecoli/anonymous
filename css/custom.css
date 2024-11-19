@@ -39,6 +39,11 @@ nav a{
     border-radius: 20px;
     padding: 10px 15px 10px 20px;
 }
+@media (max-width: 992px){
+  #navbarSupportedContent{
+    text-align: center;
+  }
+}
 .navbar .btn:hover{
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -74,11 +79,15 @@ h1{
 #secondpage img{
     width: 350px;
 }
-@media screen and (max-width: 767px){
-    #secondpage img {
-        margin-top: 75px;
-        max-width: 99px;
-    }
+@media (max-width: 767px){
+  #secondpage img{
+    width: 100px;
+    margin-top: 75px !important;
+  }
+
+  #secondpage{
+    background-position: 0 0;
+  }
 }
 h3{
     color: white;
